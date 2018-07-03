@@ -1,0 +1,72 @@
+% Exemple de CV utilisant la classe moderncv
+% Style classic en bleu
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{3cm}
+
+\firstname{\huge{Krishynan}}
+\familyname{\huge{ARAUJO}}
+
+\title{\Large{Elève ingénieur en deuxième année}
+\newline{en recherche de stage de 2 mois.}}
+
+\extrainfo{\href{http://www.linkedin.com/in/krishynan}{\includegraphics[height=\fontcharht\font`\L]{linkedin-icon.png} LinkedIn} \href{http://github.com/krishynan}{\includegraphics[height=\fontcharht\font`\G]{github.png} GitHub}\\
+23 ans}
+
+\mobile{+33 6 56 74 97 44}
+\email{krishynanshanty.fernandesmeirellesaraujo@supelec.fr}               
+\address{1 Rue Joliot-Curie}{91190 Gif-sur-Yvette}   
+
+\begin{document}
+
+\maketitle
+
+
+\section{Formation}
+\cventry{2017 -- 2019}{CentraleSupélec}{Deuxième Année Cursus Supélec}{Paris Saclay}{}{Programme de double diplôme de deux ans avec une Bourse d'Excellence du gouvernement brésilien.}
+\cventry{2014 -- 2020}{Ingénierie Électronique et Logiciel}{Université Fédérale De Rio de Janeiro - UFRJ}{Rio de Janeiro}{Brésil}{}
+\cventry{2011 -- 2013}{BTS Électrotechnique (Niveau equivalent)}{IFF - Institut Fédéral Fluminense}{Campos, RJ}{Brésil}{}
+
+
+\section{Projets}
+\cventry{Novembre 2017\\ -- Février 2018}{Logiciel d'accordeur d'instrument}{Supélec Cursus}{Paris Saclay}{}{Logiciel de détection fiable et rapide sur plusieurs octaves,utilisable pour accorder toutes sortes d'instruments de musique. Le logiciel est basé sur une bibliothèque d'algorithmes de détection de hauteur. Interface développée en utilisant Java et NetBeans IDE.}
+
+\cventry{Septembre 2016\ - Juillet 2017}{Programme d'initiation à la recherche}{UFRJ}{Rio de Janeiro}{Brésil}{Une étude sur la viabilité des générateurs électrostatiques utilisés pour la récupération d'énergie.
+\newline{Domaines concernés: Arduino, Construction/Simulation de circuits, Impression 3D.}}
+
+\cventry{Janvier 2016\ - Juillet 2016}{Logiciel de simulation de circuit MOSFET non linéaire}{UFRJ}{Rio de Janeiro}{Brésil}{Logiciel capable de simuler la réponse en fréquence d'un circuit représenté en \textit{netlist} avec composants linéaires et transistors MOSFET.}
+
+\cventry{Septembre 2014\\- Juillet 2016}{Programme d'initiation à la recherche}{UFRJ}{Rio de Janeiro}{Brésil}{Travail realisé dans le laboratoire de collisions moléculaires et atomiques:
+\begin{itemize}
+    \item Un accélérateur de particules Pelletron a été utilisé pour modifier et créer des matériaux avec des faisceaux d'ions.
+    \item Programmation d'une interface LabView pour mesurer automatiquement la stabilisation de la température.
+\end{itemize}
+{Domaines pertinents: Faisceaux d'ions, Modélisation physique, LabView, Mesures automatisées.}}
+
+
+\section{Compétences Linguistiques}
+\cvlanguage{Portugais}{Langue maternelle}{}
+\cvlanguage{Français}{Courant}{}
+\cvlanguage{Anglais}{Courant -- TOEFL ITP C1}{} 
+
+
+\section{Compétences Informatiques}
+\cvitem{Langages}{C, C++, Python, Java, Ruby}
+\cvitem{Logiciels}{MATLAB, R, Linux, VBA}
+
+
+\section{Loisirs et sports}
+\cvitem{Piano et Guitare}{Autodidacte.}
+\cvitem{Escalade et Ski}{Pratique commencé en France.}
+
+
+\end{document}
+
+\bibliographystyle{plain}
+\bibliography{references}
+\en
